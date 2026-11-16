@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>A Little Apology From My Heart ❤️</title>
+  <meta name="description" content="A little piece of my heart, made just for you." />
+  <meta name="theme-color" content="#F48FB1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9D%A4%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-locked">
+  <a class="skip-link" href="#apology">Skip to the message</a>
+
+  <!-- ============ Loader ============ -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader__heart" aria-hidden="true">
+      <svg viewBox="0 0 32 29"><path d="M23.6 0c-3.4 0-6.3 2.7-7.6 5.6C14.7 2.7 11.8 0 8.4 0 3.8 0 0 3.8 0 8.4c0 9.4 9.5 11.9 16 21.2 6.1-9.3 16-12.1 16-21.2C32 3.8 28.2 0 23.6 0z"/></svg>
+    </div>
+    <p class="loader__text">Wrapping up something special…</p>
+  </div>
+
+  <!-- ============ Opening surprise ============ -->
+  <section class="opening" id="opening" aria-labelledby="opening-title">
+    <div class="opening__hearts" aria-hidden="true"></div>
+    <div class="opening__inner">
+      <h1 class="opening__title" id="opening-title" data-content="opening.greeting"></h1>
+      <p class="opening__subtitle" data-content="opening.subtitle"></p>
+
+      <div class="gift" id="gift" aria-hidden="true">
+        <div class="gift__glow"></div>
+        <div class="gift__lid">
+          <div class="gift__bow"><span></span><span></span></div>
+        </div>
+        <div class="gift__box"></div>
+        <div class="gift__burst"></div>
+      </div>
+
+      <button class="btn btn--primary btn--lg" id="open-surprise" type="button">
+        <span data-content="opening.button"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ Global decorations ============ -->
+  <div class="floating-hearts" id="floating-hearts" aria-hidden="true"></div>
+  <div class="cursor-heart" id="cursor-heart" aria-hidden="true"></div>
+
+  <!-- ============ Header / navigation ============ -->
+  <header class="site-header" id="site-header">
+    <a href="#apology" class="brand" aria-label="Back to the top">
+      <span aria-hidden="true">💗</span> <span class="brand__text">For You</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Sections">
+      <a href="#apology">Sorry</a>
+      <a href="#special">You</a>
+      <a href="#memories">Memories</a>
+      <a href="#reasons">Reasons</a>
+      <a href="#promises">Promises</a>
+      <a href="#question">Question</a>
+      <a href="#letter">Letter</a>
+    </nav>
+  </header>
+
+  <!-- ============ Floating controls ============ -->
+  <div class="controls">
+    <button class="control-btn" id="music-toggle" type="button" aria-pressed="false" aria-label="Play music">
+      <svg class="icon-music-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+      <svg class="icon-music-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="M2 2l20 20"/></svg>
+    </button>
+    <button class="control-btn" id="replay-btn" type="button" aria-label="Replay the opening surprise">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+    </button>
+  </div>
+
+  <main id="main">
+    <!-- ============ Apology ============ -->
+    <section class="section section--apology" id="apology" aria-labelledby="apology-title">
+      <div class="deco deco--flower deco--tl" aria-hidden="true">🌸</div>
+      <div class="deco deco--flower deco--br" aria-hidden="true">🌷</div>
+      <div class="butterfly butterfly--one" aria-hidden="true"><span></span><span></span></div>
+
+      <div class="container container--narrow">
+        <div class="big-heart reveal" aria-hidden="true">
+          <svg viewBox="0 0 32 29"><defs><linearGradient id="heartGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8A5C2"/><stop offset="1" stop-color="#E75480"/></linearGradient></defs><path fill="url(#heartGrad)" d="M23.6 0c-3.4 0-6.3 2.7-7.6 5.6C14.7 2.7 11.8 0 8.4 0 3.8 0 0 3.8 0 8.4c0 9.4 9.5 11.9 16 21.2 6.1-9.3 16-12.1 16-21.2C32 3.8 28.2 0 23.6 0z"/></svg>
+        </div>
+        <h2 class="section-title reveal" id="apology-title" data-content="apology.heading"></h2>
+        <div class="card card--message reveal">
+          <div class="message" id="apology-message"></div>
+          <p class="signature" id="signature"><span data-content="apology.signature"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Special things ============ -->
+    <section class="section section--special" id="special" aria-labelledby="special-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="special-title" data-content="specialHeading"></h2>
+        <div class="special-grid" id="special-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ Gallery ============ -->
+    <section class="section section--memories" id="memories" aria-labelledby="memories-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="memories-title" data-content="galleryHeading"></h2>
+        <p class="section-sub reveal">Tap any photo to see it bigger 💕</p>
+        <ul class="gallery" id="gallery"></ul>
+      </div>
+    </section>
+
+    <!-- ============ Reasons ============ -->
+    <section class="section section--reasons" id="reasons" aria-labelledby="reasons-title">
+      <div class="butterfly butterfly--two" aria-hidden="true"><span></span><span></span></div>
+      <div class="container">
+        <h2 class="section-title reveal" id="reasons-title" data-content="reasonsHeading"></h2>
+        <ol class="reasons" id="reasons-list"></ol>
+      </div>
+    </section>
+
+    <!-- ============ Promises ============ -->
+    <section class="section section--promises" id="promises" aria-labelledby="promises-title">
+      <div class="container container--narrow">
+        <div class="glow-heart reveal" aria-hidden="true">
+          <span class="glow-heart__pinky">🤞</span>
+          <svg viewBox="0 0 32 29"><path d="M23.6 0c-3.4 0-6.3 2.7-7.6 5.6C14.7 2.7 11.8 0 8.4 0 3.8 0 0 3.8 0 8.4c0 9.4 9.5 11.9 16 21.2 6.1-9.3 16-12.1 16-21.2C32 3.8 28.2 0 23.6 0z"/></svg>
+        </div>
+        <h2 class="section-title reveal" id="promises-title" data-content="promisesHeading"></h2>
+        <ul class="promises" id="promises-list"></ul>
+        <p class="promises__closing reveal" data-content="promisesClosing"></p>
+      </div>
+    </section>
+
+    <!-- ============ The question ============ -->
+    <section class="section section--question" id="question" aria-labelledby="question-title">
+      <div class="question__sparkles" aria-hidden="true"></div>
+      <div class="deco deco--flower deco--tr" aria-hidden="true">🌺</div>
+      <div class="deco deco--flower deco--bl" aria-hidden="true">🌸</div>
+      <div class="container container--narrow">
+        <div class="question-card reveal">
+          <h2 class="section-title" id="question-title" data-content="question.heading"></h2>
+          <p class="question__text" data-content="question.text"></p>
+          <div class="question__buttons">
+            <button class="btn btn--primary btn--lg" id="btn-forgive" type="button"><span data-content="question.forgiveButton"></span></button>
+            <button class="btn btn--soft btn--lg" id="btn-time" type="button"><span data-content="question.timeButton"></span></button>
+          </div>
+          <div class="question__response" id="question-response" aria-live="polite"></div>
+        </div>
+      </div>
+      <canvas class="celebration" id="celebration" aria-hidden="true"></canvas>
+    </section>
+
+    <!-- ============ Letter ============ -->
+    <section class="section section--letter" id="letter" aria-labelledby="letter-title">
+      <div class="container container--narrow">
+        <article class="letter reveal">
+          <div class="letter__stamp" aria-hidden="true">💌</div>
+          <h2 class="letter__title" id="letter-title" data-content="letter.heading"></h2>
+          <div class="letter__body" id="letter-body"></div>
+          <p class="letter__closing">
+            <span data-content="letter.closing"></span><br />
+            <span class="letter__name"><span data-content="yourName"></span> ❤️</span>
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-content="footer"></p>
+    <button class="link-btn" id="replay-footer" type="button">Replay the surprise 🎁</button>
+  </footer>
+
+  <!-- ============ Lightbox ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox__close" id="lightbox-close" type="button" aria-label="Close photo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" type="button" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-img" alt="" />
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" type="button" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <script src="js/content.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
